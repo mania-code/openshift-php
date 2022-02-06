@@ -1,5 +1,5 @@
 <?php
 echo "Hello World!";
 print("this is second update");
-print `ipconfig`;
+print `hostname -I | awk '{print $1}'`;
 ?>
